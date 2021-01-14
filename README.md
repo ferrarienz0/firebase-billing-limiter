@@ -24,7 +24,7 @@ service account.
 
 ## Billing API
 
-You also need to enable the GCP's Billing API
+You also need to enable the GCP's Cloud Billing API
 ![](https://raw.githubusercontent.com/ferrarienz0/firebase-billing-limiter/main/assets/usage-05.png)
 
 ## Project Quotas
@@ -36,7 +36,7 @@ In the image's case, I can assign `5, 9 or 10` to the disableProjectAmount prope
 
 # Usage
 
-On the index.[ts|js] add the following cloud function:
+On the `index.[ts|js]` add the following cloud function:
 
 ```typescript
 import BillingLimiter from "firebase-billing-limiter";
