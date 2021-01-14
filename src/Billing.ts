@@ -3,7 +3,7 @@ import * as functions from "firebase-functions";
 
 import { disableBilling } from "./BillingAPI";
 
-import { BillingPubSubResponse, BillingLimiterParams } from "@ts";
+import { BillingPubSubResponse, BillingLimiterParams } from "./ts";
 
 export default function createBillingCallback({
   disableProjectAmount,

@@ -1,9 +1,8 @@
 {
   "name": "firebase-billing-limiter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically disable billing for firebase projects that surpass a certain amount.",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublish": "tsc",
@@ -24,5 +23,21 @@
     "eslint-plugin-import": "^2.22.0",
     "typescript": "^3.8.0",
     "firebase-functions-test": "^0.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferrarienz0/firebase-billing-limiter.git"
+  },
+  "keywords": [
+    "firebase",
+    "limiter",
+    "billing",
+    "quota",
+    "money",
+    "gcp"
+  ],
+  "bugs": {
+    "url": "https://github.com/ferrarienz0/firebase-billing-limiter/issues"
+  },
+  "homepage": "https://github.com/ferrarienz0/firebase-billing-limiter#readme"
 }
