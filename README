@@ -12,6 +12,8 @@ To see the configuration needed to be able to run this package please go to the 
 
 # Usage
 
+On the index.[ts|js] add the following cloud function:
+
 ```typescript
 import BillingLimiter from "firebase-billing-limiter";
 
