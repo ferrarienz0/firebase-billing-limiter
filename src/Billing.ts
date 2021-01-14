@@ -7,10 +7,10 @@ import { BillingPubSubResponse, BillingLimiterParams } from "./ts";
 
 export default function createBillingCallback({
   disableProjectAmount,
-  topic,
+  topicId,
 }: BillingLimiterParams) {
   return functions.pubsub
-    .topic(topic)
+    .topic(topicId)
     .onPublish(
       async (message: functions.pubsub.Message, _: functions.EventContext) => {
         let data!: BillingPubSubResponse;
